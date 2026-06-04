@@ -1,0 +1,708 @@
+/*delete*/
+
+div.datebg,
+div.left-menu__friends,
+div.blog__iread,
+div.blog_total_counter,
+span.pagination-goto,
+span.post-title-date,
+span.user-drop-menu,
+div.comment-box h2,
+img.flag,
+[src="//beon.fun/i/design-off.png"],
+div.blog__about form,
+div.blog__read-me span.readertime,
+div.blog__read-me a.user::before,
+div.blog__read-me a.blog::before,
+[href="https://support.beon.fun/"],
+[href="https://bugs.beon.fun/"],
+[href="https://suggest.beon.fun/"],
+div#page__admincontact,
+div#page__rendertime {
+  display:none!important
+}
+
+[href="//beon.fun/games/shariki"]>span {
+  display:none!important
+}
+
+ul {
+  list-style:none
+}
+
+/*generalized*/
+
+a,
+div,
+td,
+.pagination-goto,
+span [data-target="#deleteconfirmmodal"] {
+  text-decoration:none!important;
+  color:#2e2c39!important;
+  transition: 0.1s;
+}
+
+a:hover {
+  color:#afa3d6!important;
+  transition: 0.1s;
+}
+
+body.bodybg {
+  background-color:#fff!important;
+}
+
+main.py-4 {
+  display:flex;
+  line-height:1.3!important;
+  background: url(https://pic.maxiol.com/images2/1780493626.3275368187.qqq.png)left top/20%;
+  background-attachment:fixed;background-repeat:repeat-y;
+}
+
+div.content {
+  order:1;
+  background: url(https://pic.maxiol.com/images2/1780440576.3275368187.qq.jpg)repeat center/15%;
+  background-attachment:fixed;
+  width:60%;
+  margin-left:auto;
+  padding:15px
+}
+
+/*navbar*/
+nav.navbar {
+  padding:5px;
+  text-transform:lowercase;
+  background-color:#2e2c39!important;
+  margin:0px!important;
+  box shadow:none!important;
+  background: url(https://pic.maxiol.com/images2/1780495144.3275368187.2.png)repeat center/20%;
+}
+
+nav.navbar a,
+nav.navbar div,
+nav.navbar td,
+nav.navbar .pagination-goto,
+nav.navbar span {
+  color:#fff!important
+}
+
+nav.navbar a:hover {
+  color:#afa3d6!important;
+}
+
+/*pagination*/
+
+div.crumbs {
+  padding:5px;
+  text-transform:lowercase;
+  background-color:#2e2c39!important;
+  margin:0px!important;
+  border:1px dashed #afa3d6;
+}
+
+div.crumbs a,
+div.crumbs div,
+div.crumbs td,
+div.crumbs .pagination-goto,
+div.crumbs span {
+  color:#fff!important
+}
+
+div.crumbs a:hover {
+  color:#afa3d6!important;
+}
+
+/*post and comment*/
+
+a.user::before {
+  content:"";background-image: url(https://pic.maxiol.com/images2/1780444963.3275368187.q2.png);
+  background-size:10px;
+  height:10px;
+  width:11px;
+  display:inline-flex;
+}
+
+div.sign {
+  background-color:#fff;
+  line-height:1!important;
+}
+
+div.post-header {
+  background: url(https://pic.maxiol.com/images2/1780444099.3275368187.q1.png)no-repeat right/3%;
+  font-size:10px!important;
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+div.post-header span {
+  color:#afa3d6;
+}
+
+div.post-header a {
+  color:#afa3d6!important;
+}
+
+div.post-header a:hover {
+  color:#2e2c39!important;
+}
+
+div.post-content {
+  background: url(https://pic.maxiol.com/images2/1780444878.3275368187.q3.png)no-repeat bottom left/5%, linear-gradient(to bottom right, #d5ceed, #efeff4);
+  border:1px dashed #afa3d6;
+  min-height:auto;
+  padding:30px;
+}
+
+div.post-avatar img {
+  border:1px solid #fff;
+}
+
+div.post-content div.text-right {
+  padding-right:0px!important
+}
+
+div.post-opt,
+div.post-page a {
+  text-transform:lowercase;
+}
+
+div.post-opt a,
+div.post-opt span,
+.fa-heart,
+div.post-page a {
+  color:#afa3d6!important;
+}
+
+div.post-opt a:hover,
+div.post-opt span:hover,
+.fa-heart:hover,
+div.post-page a:hover {
+  color:#2e2c39!important;
+}
+
+div.post-page h1 {
+  font-size:10px!important;
+  font-weight:bold;
+  color:#afa3d6!important;
+}
+
+div.post-page div.small-text {
+  color:#afa3d6!important;
+  font-size:10px!important;
+}
+
+div.post-page {margin:10px!important;
+               padding:35px;
+              }
+
+div.comment-content {
+  background: url(https://pic.maxiol.com/images2/1780444878.3275368187.q3.png)no-repeat bottom left/5%, linear-gradient(to bottom right, #d5ceed, #efeff4);
+  border:1px dashed #afa3d6;
+  min-height:auto;
+  padding:35px;
+  margin:10px!important
+}
+
+div.comment-header {
+  background: url(https://pic.maxiol.com/images2/1780444099.3275368187.q1.png)no-repeat right/3%;
+  font-size:10px!important;
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+div.comment-header a {
+  color:#afa3d6!important;
+}
+
+div.comment-header a:hover {
+  color:#2e2c39!important;
+}
+
+div.comment-header a.user::before {
+  display:none!important
+}
+
+p.quotation {
+  margin:0px;
+  padding:5px;
+  border-left:none;
+  background-color:#fff
+}
+
+/*left-menu*/
+
+div.left-menu>div {
+  padding:5px 0px 5px 0px!important
+}
+
+div.left-menu {
+  order:2;border:none!important;
+  text-transform:lowercase;
+  margin-top:1.5%;
+  overflow:auto;
+  height:100vh;!important;
+  position:sticky;
+  top:0%;
+}
+
+.left-menu::-webkit-scrollbar {
+  width:0;
+  height:0;
+}
+
+.left-menu::-webkit-scrollbar-thumb {
+  background:transparent;
+}
+
+div.left-menu h3 {
+  text-align:center!important;
+  padding:5px!important;
+  font-size:10px!important;
+  background: url(https://pic.maxiol.com/images2/1780448209.3275368187.q4.png)no-repeat right/10%,linear-gradient(to bottom right, #d5ceed, #efeff4);
+  color:#afa3d6!important;
+}
+
+div.left-menu__unread-message h3 {
+  font-size:0px!important;
+}
+
+div.left-menu__unread-message h3::before {
+  content:"сообщение";
+  font-size:10px!important
+}
+
+div.notifications__comments h3 {
+  font-size:0px!important;
+}
+
+div.notifications__comments h3::before {
+  content:"новые комментарии";
+  font-size:10px!important
+}
+
+div.notifications__comments div.right-menu-text a {
+  font-size:0px!important;
+}
+
+div.notifications__comments div.right-menu-text a::before {
+  content:">>>";
+  font-size:10px!important;
+}
+
+div.notifications__comments div.right-menu-text {
+  text-align:center!important
+}
+
+div.left-menu__unread-notifications h3 {
+  font-size:0px!important;
+}
+
+div.left-menu__unread-notifications h3::before {
+  content:"новые уведомления";
+  font-size:10px!important
+}
+
+div.blog__about h3 {
+  font-size:0px!important;
+}
+
+div.blog__about h3::before {
+  content:"обо мне";
+  font-size:10px!important
+}
+
+div.blog__about [href="/drafts"],
+div.blog__about [href="//noxex.beon.fun/birthdays/"],
+div.blog__about [href="//noxex.beon.fun/raisins/"] {
+  display:none!important
+}
+
+div#beon-fnplayer {
+  padding:10px;
+  background:transparent;
+  border:1px dashed #afa3d6;
+  border-radius:0px;
+  margin:5px!important;
+  padding:10px!important;
+} 
+
+#fnplayer-slider > span {
+  font-size:0px!important;
+} 
+
+#fnplayer-slider {
+  background-color:#d5ceed!important;
+  border-radius:20px;
+} 
+
+#fnplayer-slider-inner {
+  height:10px;
+  width:2%;
+  background-color:#afa3d6!important;
+  border-radius:20px;
+}
+
+#fnplayer-volume-inner {
+  width:100%;
+  background-color:#d5ceed!important;
+  border-radius:20px;
+  border:none!important
+}
+
+#fnplayer-stop {
+  border:0;background:#d5ceed!important;
+  border-radius:20px;
+}
+
+#fnplayer-play {
+  border-color:transparent transparent transparent #d5ceed!important;
+}
+
+#fnplayer-volume-mask {
+  border:none!important;
+}
+
+#fnplayer-volume {
+  background-color:#afa3d6;
+  border-radius:20px;
+}
+
+div.blog__read-me div.left-menu-text {
+  display:inline-block;
+}
+
+div.blog__read-me h3 {
+  font-size:0px!important;
+}
+
+div.blog__read-me h3::before {
+  content:"читатели";
+  font-size:10px!important
+}
+
+div.blog__last-comments h3 {
+  font-size:0px!important;
+}
+
+div.blog__last-comments h3::before {
+  content:"комментарии";
+  font-size:10px!important
+}
+
+div.blog__last-comments div.text-right a {
+  font-size:0px!important;
+}
+
+div.blog__last-comments div.text-right a::before {
+  content:">>>";
+  font-size:10px!important;
+}
+
+div.blog__last-comments div.text-right {
+  text-align:center!important
+}
+
+div.blog__last-comments div.left-menu-text p {
+  background-color:#fff;
+  margin:5px 0px 5px 0px!important;
+  padding:5px!important;
+  border:1px dashed #afa3d6;
+}
+
+/*textarea*/
+
+div.textareabg {
+  margin:0px 10px 0px 10px!important;
+  text-transform:lowercase!important;
+  background:linear-gradient(to bottom right, #d5ceed, #efeff4);
+  border:1px dashed #afa3d6;
+  min-height:auto;
+  padding:30px!important;
+}
+
+div.avatars-fullscreen-link-wrapper {
+  background-color:#fff;
+  border-radius:0px!important;
+  padding:5px;
+  text-transform:lowercase!important;
+  border:none!important;
+}
+
+a.open-avatars-fullscreen-list {
+  color:#2e2c39!important;
+  transition: 0.1s;
+}
+
+a.open-avatars-fullscreen-list:hover {
+  color:#afa3d6!important;
+  transition: 0.1s;
+}
+
+div.textareabg div.container-fluid {
+  padding:0px!important
+}
+
+div.textareabg .mt-5 {
+  margin-top:5px!important
+}
+
+div.textareabg br,
+[src="/i/podcast.png"],
+[src="/i/access.png"],
+[src="/i/topic_options.png"] {
+  display:none
+}
+
+textarea {
+  border-radius:0!important;
+  border:none!important
+}
+
+div.textareabg input {
+  background:none;
+  background-color:#fff;
+  border:none!important
+}
+
+input {
+  background-color:#fff;
+  border-radius:0px;
+  padding:5px;
+  color:#2e2c39;
+  text-transform:lowercase!important;
+  border:1px dashed #afa3d6!important;
+  transition: 0.1s;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+input:hover {
+  background-color:#fff;
+  border-radius:0px;
+  padding:5px;
+  color:#afa3d6;
+  text-transform:lowercase!important;
+  border:1px dashed #afa3d6!important;
+  transition: 0.1s;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+form.messageform select,
+form.messageform option,
+.btn-secondary,
+.btn-primary {
+  background-color:#fff;
+  border-radius:0px;
+  padding:5px;
+  color:#2e2c39;
+  text-transform:lowercase!important;
+  border:1px dashed #afa3d6!important;
+  transition: 0.1s;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+form.messageform select:hover,
+form.messageform option:hover,
+.btn-secondary:hover {
+  background-color:#fff;
+  border-radius:0px;
+  padding:5px;
+  color:#afa3d6;
+  text-transform:lowercase!important;
+  border:1px dashed #afa3d6!important;
+  transition: 0.1s;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.modal-content {
+  background-color:#fff!important;
+  padding:5px;
+  color:#2e2c39!important;
+  border-radius:0px!important;
+  border:1px dashed #afa3d6!important
+}
+
+h5.modal-title {
+  font-size:15px;
+}
+
+div.modal-header {
+  border-bottom:none!important;
+}
+
+div.modal-footer {
+  border-top:none!important;
+}
+
+.alert,select#addtag-img-size,
+select#addtag-img-align,
+textarea#addtag-img-urls,
+select#upload-img-size,
+select#upload-img-align,
+p.clipboard-image-field,
+select.cb_img-size,
+select.cb_img-align,
+textarea#addtag-audio-urls,
+textarea#addtag-video-urls,
+textarea#add-inst-urls,
+select#addblog__select {
+  border:none!important;
+  border-radius:0px
+}
+
+.btn-outline-primary {
+  border:none!important;
+  border-radius:0px
+}
+
+h5 {
+  font-size:15px;!important;
+}
+
+button.close {
+  color:#afa3d6!important
+}
+
+/*scroll*/
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+  font-size:0px!important;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]::before {
+  content: "";
+  background: url(https://pic.maxiol.com/images2/1780496754.3275368187.2q.png)no-repeat;
+  position:absolute;
+  background-size:contain;
+  width:50px;
+  height:50px;
+  margin-left:-40%!important;
+  margin-bottom:15%!important;
+  font-size:0;
+}
+
+a.for-mobile {
+  font-size:0px!important;
+}
+
+a.for-mobile::before {
+  content: "";background: url(https://pic.maxiol.com/images2/1780496743.3275368187.1q.png)no-repeat;
+  position:fixed;
+  background-size:contain;
+  width:50px;
+  height:50px;
+  margin-left:-78%!important;
+  margin-top:8%!important;
+  font-size:0;
+}
+
+#footer {
+  font-size:15px;
+  color:#afa3d6;
+  text-align:center;
+}
+
+::-webkit-scrollbar {
+  width:15px;
+  height:15px;
+  background-color:#fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border:5px solid #fff;
+  background-color:#afa3d6;
+  min-height:15px;
+  min-width:15px;
+  border-radius:15px
+}
+
+::-webkit-scrollbar-track {
+  border: 5px solid #fff;
+  background-color: #fff;
+}
+
+@media (max-width: 800px) {
+
+main.py-4 {
+  display:block;
+  background:none!important
+}
+  
+div.content {
+  width:100%;
+  margin:auto;
+  padding:0px
+}
+
+div.left-menu {
+  overflow:visible;
+  height:auto!important;
+  position:static;
+  top:0%;
+  width:95%;
+  margin:auto
+}
+
+div.post-content {
+  padding:5px!important
+}
+  
+div.post-page,
+div.comment-content,
+div.textareabg {
+  padding:10px!important
+}
+  
+a.user::before {
+  content:"";
+  background-image: url(https://pic.maxiol.com/images2/1780444963.3275368187.q2.png);
+  background-size:10px;
+  height:10px;
+  width:10px;
+  display:inline-flex;
+}
+
+.fa-heart,
+.fa-retweet,
+.fa-bookmark,
+.fa-trash-alt,
+.fa-exclamation-triangle,
+.fa-quote-left {
+  font-size:15px
+}
+  
+ul {
+  list-style-type:none!important;
+}
+  
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]  {
+  display:none
+}
+  
+a.d-md-inline {
+  display:none
+}
+
+.menu__box {width:auto!important;
+  height:auto!important;
+  background:#2e2c39!important;
+  text-transform:lowercase!important;
+  padding:35px 0px 5px 5px;
+  box-shadow:none!important;
+  margin:0px!important
+}
+  
+.menu__item {
+  font-size:15px;
+}
+  
+.menu__item:hover {
+  background-color:transparent;
+}
+
+div.post-header,
+div.comment-header {
+  background: url(https://pic.maxiol.com/images2/1780444099.3275368187.q1.png)no-repeat right/7%;
+}
+}
