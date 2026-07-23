@@ -1,0 +1,950 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*скрыто*/
+div#page__admincontact,
+div#page__rendertime,
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"],
+[href="https://support.beon.fun/"],
+[href="https://bugs.beon.fun/"],
+[href="https://suggest.beon.fun/"],
+div.prevsibling,
+div.nextsibling,
+div.blog__read-me,
+[src="//beon.fun/i/offline.png"],
+div.left-menu__friends,
+div.blog__iread,
+div.datebg,
+div.blog_total_counter,
+[src="/i/podcast.png"],
+[src="/i/access.png"],
+[src="/i/topic_options.png"],
+img.flag,
+div.textareabg br,
+div.post-page h1,
+div.post-page div.small-text,
+[href="//beon.fun/games/shariki"] > span,
+[src="//beon.fun/i/design-off.png"],
+div.blog__about form,
+div.comment-box h2,
+div.comment-header a:nth-of-type(2) {
+  display: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+div#footer {
+  font-size: 0px !important;
+}
+
+.input-mood,
+.input-music,
+.input-want,
+.input-tags {
+  background: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*общее*/
+div {
+  color: #24201d !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #565538 !important;
+  transition: 0.1s;
+}
+
+a:hover {
+  color: #792e29 !important;
+  transition: 0.1s;
+}
+
+body.bodybg {
+  background-image: url(https://pic.maxiol.com/images2/1784802674.3275368187.1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  line-height: 1.3 !important;
+}
+
+div#app {
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
+div.content {
+  width: 70%;
+  margin: 0px 0px 30px 15px !important;
+  padding: 0px !important;
+}
+
+/*левое меню*/
+div.left-menu {
+  top: 1%;
+  position: sticky;
+  overflow: auto;
+  height: 100vh !important;
+  border: none !important;
+  margin: 10px 0px 0px 0px !important;
+  padding: 0px !important;
+}
+
+.left-menu::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+div.left-menu > div {
+  background-color: #fff !important;
+  padding: 5px !important;
+  margin: 0px 0px 5px 0px !important;
+  border: 1px dashed #aba38f;
+}
+
+div.left-menu h3 {
+  text-align: center !important;
+  font-size: 15px !important;
+  margin: 0px 0px 5px 0px !important;
+  padding: 5px 0px 5px 0px !important;
+  text-transform: lowercase;
+  background-color: #792e29 !important;
+  color: #fff !important;
+  outline: 1px solid #fff;
+  outline-offset: -2.5px;
+}
+
+/*о себе*/
+div.blog__about {
+  font-size: 0px !important;
+}
+
+div.blog__about::after {
+  display: block;
+  content: "радиостанция хаотичного вещания";
+  font-size: 16px !important;
+  color: #8d8b5c !important;
+  font-weight: bold;
+  font-family: "Cormorant Infant", serif !important;
+  margin: 0px 5px 0px 5px !important;
+  padding-top: 2.5px !important;
+  border-top: 1px solid #24201d;
+  text-align: center;
+}
+
+div.blog__about [href="/design/disable"]::before {
+  content: "отключить оформление дневника";
+  font-size: 14px !important;
+}
+
+div.blog__about [href="//beon.fun/users/noxex"]::before {
+  content: "ещё обо мне";
+  font-size: 14px !important;
+}
+
+/*подарки*/
+div.blog__gifts a.user {
+  display: none !important;
+}
+
+div.blog__gifts img {
+  width: 40px;
+}
+
+div.blog__gifts div.right-menu-text {
+  text-align: center !important;
+}
+
+div.blog__gifts div.right-menu-text a {
+  font-size: 0px !important;
+}
+
+div.blog__gifts div.right-menu-text a::before {
+  content: "➤➤➤";
+  font-size: 10px !important;
+}
+
+/*последние комментарии*/
+.blog__last-comments div.left-menu-text {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.blog__last-comments div.left-menu-text p {
+  font-weight: normal !important;
+  text-transform: none !important;
+}
+
+.blog__last-comments div.text-right {
+  text-align: center !important;
+}
+
+.blog__last-comments div.text-right a {
+  font-size: 0px !important;
+}
+
+.blog__last-comments div.text-right a::before {
+  content: "➤➤➤";
+  font-size: 10px !important;
+}
+
+/*ссылаются*/
+div.blog__refferers img {
+  filter: grayscale(100%);
+}
+
+/*новые комментарии*/
+div.notifications__comments p.left-menu-text a {
+  width: 100% !important;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+
+div.notifications__comments p.left-menu-text {
+  padding: 0px !important;
+}
+
+div.notifications__comments div.right-menu-text {
+  text-align: center !important;
+}
+
+div.notifications__comments div.right-menu-text a {
+  font-size: 0px !important;
+}
+
+div.notifications__comments div.right-menu-text a::before {
+  content: "➤➤➤";
+  font-size: 10px !important;
+}
+
+/*новые уведомления*/
+div.left-menu__unread-notifications p.left-menu-text {
+  display: none !important;
+}
+
+/*пост*/
+
+p.quotation {
+border:none!important;
+margin:0;
+padding:0;
+background-color:#d9d4c8;
+}
+
+div.post-content,
+div.comment-content {
+  background-color: #fff !important;
+  padding: 15px !important;
+  border: 1px dashed #aba38f;
+  min-height: auto;
+  background: url(https://pic.maxiol.com/images2/1784813647.3275368187.file00000000755081.png) repeat left/35%;
+}
+
+div.post-header,
+div.comment-header {
+  font-size: 14px !important;
+  margin: 0px 0px 5px 0px !important;
+  padding: 5px !important;
+  text-transform: lowercase;
+  background-color: #792e29 !important;
+  outline: 1px solid #fff;
+  outline-offset: -2.5px;
+  background: url(https://pic.maxiol.com/images2/1784813769.3275368187.file000000001bd881.png) no-repeat right/3%;
+}
+
+div.post-header a,
+div.comment-header a,
+i.fa-chevron-down:hover {
+  color: #fff !important;
+}
+
+div.post-header a:hover,
+div.comment-header a:hover,
+i.fa-chevron-down {
+  color: #8d8b5c !important;
+}
+
+a.post-title {
+  font-size: 18px !important;
+}
+
+div.post-header span,
+div.comment-header span {
+  color: #d9d4c8 !important;
+}
+
+a.user::before {
+  content: "#" !important;
+}
+
+div.post-text strong,
+div.comment-text strong {
+  color: #8d8b5c !important;
+}
+
+div.post-text i,
+div.comment-text i {
+  color: #aba38f !important;
+}
+
+div.post__tags-list a.tag::before {
+  display: none !important;
+}
+
+div.post__tags-list a.tag::after {
+  content: " ;" !important;
+  font-weight: bold;
+}
+
+div.post__tags-list {
+  text-transform: lowercase;
+  font-weight: bold;
+  margin-bottom: 10px !important;
+}
+
+div.post__tags-list a {
+  font-weight: normal !important;
+}
+
+div.col-md-6,
+div.post-opt {
+  text-transform: lowercase;
+}
+
+div.col-md-6 span,
+div.post-opt span {
+  text-decoration: none !important;
+  color: #565538 !important;
+  transition: 0.1s;
+}
+
+div.col-md-6 span:hover,
+div.post-opt span:hover {
+  color: #792e29 !important;
+  transition: 0.1s;
+}
+
+/*комментарии*/
+div.post-page,
+div.comment-content {
+  margin: 10px !important;
+  padding: 15px !important;
+  min-height: auto;
+}
+
+div.post-page div:nth-of-type(2) a {
+  margin: 0px 0px 10px 0px !important;
+  text-transform: lowercase;
+}
+
+.post-avatar .sign:not(:empty) {
+  color: #8d8b5c !important;
+  font-weight: bold;
+  padding: 3px 0px 0px 0px !important;
+  margin: 0px !important;
+  font-family: "Cormorant Infant", serif !important;
+  font-size: 14px;
+  line-height: 1 !important;
+}
+
+/*форма заполнения поста*/
+div.textareabg {
+  background-color: #fff !important;
+  padding: 15px !important;
+  border: 1px dashed #aba38f;
+  min-height: auto;
+  width: 97.8%;
+  margin: auto;
+  text-transform: lowercase;
+}
+
+div.textareabg div.container-fluid {
+  padding: 10px 0px 10px 0px !important;
+  margin: 0px !important;
+}
+
+div.textareabg div.col-md-4 p,
+div.textareabg div.col-md-4 div {
+  margin: 0px 0px 10px 0px;
+}
+
+form.messageform select,
+.btn-secondary,
+form.messageform option,
+.btn-primary,
+input,
+select {
+  margin: 5px 5px 5px 0px !important;
+  padding: 5px !important;
+  background-color: #fff !important;
+  color: #24201d !important;
+  border: 1px solid #d9d4c8 !important;
+  border-radius: 0px !important;
+  text-transform: lowercase !important;
+  transition: 0.1s;
+}
+
+form.messageform select:hover,
+form.messageform option:hover,
+.btn-secondary:hover,
+.btn-primary:hover,
+input:hover,
+select:hover {
+  border: 1px solid #aba38f !important;
+  border-radius: 0px !important;
+  transition: 0.1s;
+}
+
+textarea {
+  border-radius: 0px !important;
+  border: 1px solid #d9d4c8 !important;
+  background-color: #fff;
+  color: #24201d !important;
+}
+
+div.avatars-fullscreen-link-wrapper {
+  background-color: #fff;
+  color: #24201d !important;
+  padding: 5px 0px 5px 0px !important;
+  width: 90%;
+  margin: 0px;
+}
+
+/*скролл*/
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 5px solid #fff;
+  background-color: #8d8b5c;
+  min-height: 15px;
+  min-width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  border: 7.1px solid #fff;
+  background-color: #8d8b5c;
+}
+
+/*плеер*/
+#fnplayer-slider > span {
+  font-size: 0px !important;
+} 
+
+div#beon-fnplayer {
+  border: none;
+  border-radius: 30px;
+  background: transparent;
+  margin: 5px !important;
+  padding: 5px 0px 5px 0px !important;
+}
+
+#fnplayer-slider {
+  border-radius: 30px;
+  background-color: #8d8b5c !important;
+}
+
+#fnplayer-slider-inner {
+  height: 10px;
+  width: 3%;
+  background-color: #24201d !important;
+  border-radius: 30px;
+}
+
+#fnplayer-volume-inner {
+  width: 100%;
+  background-color: #8d8b5c !important;
+  border-radius: 30px;
+  border: none !important;
+}
+
+#fnplayer-volume-mask {
+  border: none !important;
+}
+
+#fnplayer-volume {
+  background-color: #24201d;
+  border-radius: 30px;
+}
+
+#fnplayer-stop {
+  border: none;
+  background: #8d8b5c !important;
+  border-radius: 30px;
+}
+
+#fnplayer-play {
+  border-color: transparent transparent transparent #8d8b5c !important;
+  margin-left: 0px !important;
+}
+
+/*верхнее меню*/
+/*navbar*/
+nav.navbar {
+  box-shadow: none !important;
+  text-transform: lowercase;
+  background-color: #fff !important;
+  padding: 5px !important;
+  margin: 0px !important;
+  border: 1px dashed #aba38f;
+}
+
+a.for-mobile {
+  display: none !important;
+}
+
+nav.navbar div.navbar-collapse {
+  display: block !important;
+  margin-left: 125px !important;
+}
+
+/*пагинация*/
+div.crumbs {
+  text-transform: lowercase;
+  background-color: #fff !important;
+  padding: 5px 20px 5px 20px !important;
+  margin: 0px 0px 15px 0px !important;
+  border-left: 1px dashed #aba38f;
+  border-bottom: 1px dashed #aba38f;
+  border-right: 1px dashed #aba38f;
+}
+
+div.crumbs span.crumb-item,
+div.crumbs span.pagination-goto {
+  font-weight: bold;
+  font-family: "Cormorant Infant", serif !important;
+}
+
+div.pagination {
+  font-size: 0px !important;
+}
+
+div.pagination a,
+div.crumbs span.pagination-goto {
+  font-size: 14px !important;
+}
+
+div.pagination a {
+  margin: 0px 5px 0px 0px !important;
+}
+
+/*окна*/
+.modal-content {
+  background-color: #fff !important;
+  padding: 15px !important;
+  border: 1px dashed #aba38f;
+  min-height: auto;
+  background: url(https://pic.maxiol.com/images2/1784813647.3275368187.file00000000755081.png) repeat left/35%;
+  border-radius: 0px !important;
+  margin: 0px !important;
+  text-transform: lowercase;
+}
+
+h5.modal-title,
+h5 {
+  font-size: 24px;
+  color: #8d8b5c !important;
+  font-weight: bold;
+  font-family: "Cormorant Infant", serif !important;
+}
+
+div.modal-header {
+  border-bottom: none !important;
+}
+
+div.modal-footer {
+  border-top: none !important;
+}
+
+.alert,
+select#addtag-img-size,
+select#addtag-img-align,
+textarea#addtag-img-urls,
+select#upload-img-size,
+select#upload-img-align,
+p.clipboard-image-field,
+select.cb_img-size,
+select.cb_img-align,
+textarea#addtag-audio-urls,
+textarea#addtag-video-urls,
+textarea#add-inst-urls,
+select#addblog__select,
+.btn-outline-primary {
+  margin: 5px 5px 5px 0px !important;
+  padding: 5px !important;
+  background-color: #fff !important;
+  color: #24201d !important;
+  border: 1px solid #d9d4c8 !important;
+  border-radius: 0px !important;
+  text-transform: lowercase !important;
+  transition: 0.1s;
+}
+
+.alert:hover,
+select#addtag-img-size:hover,
+select#addtag-img-align:hover,
+textarea#addtag-img-urls:hover,
+select#upload-img-size:hover,
+select#upload-img-align:hover,
+p.clipboard-image-field:hover,
+select.cb_img-size:hover,
+select.cb_img-align:hover,
+textarea#addtag-audio-urls:hover,
+textarea#addtag-video-urls:hover,
+textarea#add-inst-urls:hover,
+select#addblog__select:hover,
+.btn-outline-primary:hover {
+  border: 1px solid #aba38f !important;
+  border-radius: 0px !important;
+  transition: 0.1s;
+}
+
+button.close {
+  color: #8d8b5c !important;
+}
+
+button.close:hover {
+  color: #24201d !important;
+}
+
+/*стрелочки*/
+div > span[onclick*="top: 0"] {
+  position: fixed !important;
+  left: calc(48% + 630px) !important;
+  top: calc(50vh - 25px) !important;  
+  z-index: 9999 !important;          
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 50% !important; 
+  border: none !important;            
+  display: inline-flex !important;   
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  text-shadow: none !important;
+  background-color: #792e29 !important; 
+  outline: 1px solid #fff !important; 
+  outline-offset: -2.5px !important;
+  transition: 0.1s;
+}
+
+div > span[onclick*="top: 0"]::after {
+  content: "" !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-top: 3px solid #fff !important;  
+  border-left: 3px solid #fff !important; 
+  transform: translate(-50%, -30%) rotate(45deg) !important; 
+  transition: 0.1s;
+}
+
+div > span[onclick*="top: 0"]:hover {
+  background-color: #fff !important; 
+  outline: 1px solid #792e29 !important; 
+  outline-offset: -2.5px !important;
+  transition: 0.1s;
+}
+
+div > span[onclick*="top: 0"]:hover::after {
+  border-top-color: #792e29 !important;
+  border-left-color: #792e29 !important;
+  transition: 0.1s;
+}
+
+.my-menu.for-mobile {
+  position: fixed !important;
+  left: calc(48% + 630px) !important;
+  top: calc(50vh + 25px) !important;  
+  z-index: 9999 !important;          
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 50% !important; 
+  border: none !important;           
+  display: inline-flex !important;   
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  text-shadow: none !important;
+  background-color: #792e29 !important; 
+  outline: 1px solid #fff !important; 
+  outline-offset: -2.5px !important;
+  transition: 0.1s;
+}
+
+.my-menu.for-mobile::after {
+  content: "" !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-bottom: 3px solid #fff !important; 
+  border-right: 3px solid #fff !important;  
+  transform: translate(-50%, -70%) rotate(45deg) !important; 
+  transition: 0.1s;
+}
+
+.my-menu.for-mobile:hover {
+  background-color: #fff !important; 
+  outline: 1px solid #792e29 !important; 
+  outline-offset: -2.5px !important;
+  transition: 0.1s;
+}
+
+.my-menu.for-mobile:hover::after {
+  border-bottom-color: #792e29 !important;
+  border-right-color: #792e29 !important;
+  transition: 0.1s;
+}
+
+@media (max-width: 800px) {
+
+ html, body {
+    scrollbar-width: none !important;
+  }
+  ::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+  /*стрелочки*/
+  div > span[onclick*="top: 0"] {
+    display: none !important;
+  }
+
+  .my-menu.for-mobile {
+    display: none !important;
+  }
+
+  /*общее*/
+  div#app {
+    width: 95%;
+    margin: auto;
+    padding: 0px;
+  }
+
+  div.content {
+    width: 100%;
+    margin: 15px 0px 15px 0px !important;
+    padding: 0px !important;
+  }
+
+  /*левое меню*/
+  div.left-menu {
+    top: 0%;
+    width: 100%;
+    height: auto !important;
+    position: static;
+    overflow: visible;
+    margin: 0px !important;
+  }
+
+div.blog__about::after {
+font-size: 24px !important;
+}
+
+  /*пост*/
+  div.post-content,
+  div.comment-content {
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    background-color: #fff !important;
+    margin: 0px 0px 20px 0px !important;
+    padding: 10px !important;
+    border: 1px dashed #aba38f;
+    background: url(https://pic.maxiol.com/images2/1784813647.3275368187.file00000000755081.png) repeat left/50%;
+  }
+
+  div.post-header,
+  div.comment-header {
+    background: url(https://pic.maxiol.com/images2/1784813769.3275368187.file000000001bd881.png) no-repeat right/10%;
+  }
+
+  div.post-header span {
+    font-size: 0px !important;
+  }
+
+  div.post-header span.user-drop-menu {
+    font-size: 14px !important;
+  }
+
+  /*форма заполнения поста*/
+  div.textareabg {
+    padding: 10px !important;
+    width: 100%;
+    margin: auto !important;
+  }
+
+  div.avatars-fullscreen-link-wrapper {
+    width: 100%;
+    margin: 0px;
+  }
+
+  /*пагинация*/
+  div.crumbs span.pagination-goto {
+    display: none !important;
+  }
+
+  div.crumbs {
+    display: flow-root !important;
+    height: auto !important;
+    overflow: visible !important;
+    padding: 5px !important;
+  }
+
+  div.pagination {
+    display: inline !important;
+    font-size: 0px !important;
+  }
+
+  div.crumbs span, 
+  div.crumbs a,
+  div.pagination a {
+    display: inline-block !important;
+    white-space: normal !important;
+    vertical-align: middle !important;
+    margin-bottom: 5px !important;
+  }
+
+  /*окна*/
+  .modal-content {
+    padding: 5px !important;
+  }
+
+  /*лайки и прочее*/
+  .fa-heart,
+  .fa-retweet,
+  .fa-bookmark,
+  .fa-trash-alt,
+  .fa-exclamation-triangle,
+  .fa-quote-left {
+    font-size: 15px;
+  }
+
+/*выпадающее меню*/
+
+ nav.navbar .menu__box li:has(a[href*="whowhere"]),
+  nav.navbar .menu__box li:has(a[href*="communities"]),
+  nav.navbar .menu__box li:has(a[href*="random"]),
+  nav.navbar .menu__box li:has(a[href*="2048"]),
+  nav.navbar .menu__box li:has(a[href*="tests"]),
+  nav.navbar .menu__box li:has(a[href*="search"]),
+  nav.navbar .menu__box li:has(a[href*="horoscope"]),
+  nav.navbar .menu__box li:has(a[href*="friends-activities"]),
+  nav.navbar .menu__box li:has(a[href*="friends-posts"]),
+  nav.navbar .menu__box li:has(a[href*="preview"]),
+  nav.navbar .menu__box li:has(a[href*="polls"]),
+  nav.navbar .menu__box li:has(a[href*="p/avatars"]),
+  nav.navbar .menu__box li:has(a[href*="duels"]),
+  nav.navbar .menu__box li:has(a[href*="games/shariki"]) {
+display: none !important;}
+
+nav.navbar .menu__box {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    background: #000 !important;
+    
+    padding: 50px 15px 15px 15px !important; 
+    margin: 0 !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none !important; 
+    -ms-overflow-style: none !important;
+}
+
+nav.navbar .menu__box::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+nav.navbar .menu__box li {
+    display: block !important;
+    width: 100% !important;
+    position: static !important;
+    transform: none !important;
+    margin: 0 0 2.5px 0 !important;
+    padding: 0 !important;
+    float: none !important;
+}
+
+nav.navbar .menu__box li:last-child {
+    margin-bottom: 0px !important;
+}
+
+nav.navbar .menu__box a,
+nav.navbar .menu__box .menu__item,
+nav.navbar a.menu__item {
+    display: block !important;        
+    position: static !important;     
+    left: auto !important;           
+    top: auto !important;            
+    transform: none !important;      
+    width: 100% !important;          
+    height: auto !important;         
+    font-size: 14px !important;      
+    font-weight: bold !important;    
+    padding: 10px 20px !important;   
+    box-sizing: border-box !important;
+    text-align: center !important;   
+    white-space: normal !important;  
+    
+    /* Новые стили по умолчанию */
+    background-color: #792e29 !important; 
+    color: #fff !important;
+    outline: 1px solid #fff !important; 
+    outline-offset: -2.5px !important;
+    border-radius: 0px !important;       
+    transition: all 0.15s ease !important; 
+}
+
+/* При наведении и клике/активном состоянии */
+nav.navbar .menu__box a:hover,
+nav.navbar .menu__box .menu__item:hover,
+nav.navbar a.menu__item:hover,
+nav.navbar .menu__box a:active,
+nav.navbar .menu__box .menu__item:active,
+nav.navbar a.menu__item:active,
+nav.navbar .menu__box a:focus,
+nav.navbar .menu__box .menu__item:focus,
+nav.navbar a.menu__item:focus {
+    background-color: #fff !important; 
+    color: #792e29 !important;            
+    outline: 1px solid #792e29 !important; 
+    outline-offset: -2.5px !important;
+}
+
+
+}
