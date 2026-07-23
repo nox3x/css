@@ -189,13 +189,14 @@ div.blog__gifts div.right-menu-text a::before {
 }
 
 .blog__last-comments div.left-menu-text a {
-width: 100% !important;
+width: 98% !important;
 display: inline-block;
 max-width: 100%;
 overflow: hidden;
 text-overflow: ellipsis;
 white-space: nowrap;
 vertical-align: bottom;
+margin-bottom:2.5px;
 }
 
 .blog__last-comments div.text-right {
